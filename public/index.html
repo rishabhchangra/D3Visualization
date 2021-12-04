@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="spa.css">
+
+</head>
+<body class="body">
+<center><h1><span>💻</span>Programming Languages Popularity <span>🔥</span>(2009-2020*)</h1></center>
+
+
+
+<!-- from https://developer.mozilla.org/en-US/docs/Web/SVG/Element/animateMotion -->
+<!-- used animateMotion to move svg circles.-->
+
+<svg  width="800" height="500" style="position: absolute;">
+<circle cx="700" cy="200" r="20" style="fill:white;opacity:0.09;stroke:black; stroke-width: 3; fill:white">
+<animateMotion dur="10s" repeatCount="indefinite" path="M10,0 L30,0 0,100 0,0 z" /></circle>
+<circle cx="700" cy="300" r="10" style="fill:white;opacity:0.09;stroke:black; stroke-width: 3; fill:white">
+<animateMotion dur="10s" repeatCount="indefinite" path="M0,0 C40,0 0,100 0,0 z" /></circle>
+<circle cx="50" cy="300" r="15" style="fill:white;opacity:0.09;stroke:black; stroke-width: 3; fill:white">
+<animateMotion dur="10s" repeatCount="indefinite" path="M0,0 C40,0 0,100 0,0 z" /></circle>
+<circle cx="50" cy="200" r="7" style="fill:white;opacity:0.09;stroke:black; stroke-width: 3; fill:white" >
+<animateMotion dur="10s" repeatCount="indefinite" path="M0,0 C40,0 0,100 0,0 z" /></circle>
+<circle cx="0" cy="400" r="8" style="fill:white;opacity:0.09;stroke:black; stroke-width: 3; fill:white" >
+<animateMotion dur="10s" repeatCount="indefinite" path="M0,0 C40,0 0,100 0,0 z" /></circle>
+<circle cx="0" cy="100" r="20" style="fill:white;opacity:0.09;stroke:black; stroke-width: 3; fill:white" > 
+<animateMotion dur="10s" repeatCount="indefinite" path="M0,0 C40,0 0,100 0,0 z" /></circle>
+<rect x="400" y="400"  width="50" height="20"style="fill:white;stroke:black;stroke-width:3;opacity:0.09;">
+<animateMotion dur="10s" repeatCount="indefinite" path="M0,0 C40,0 0,100 0,0 z" /></rect>
+<path d="M500 200 L550 200 L530 150 Z" style="fill:white;opacity:0.09;stroke:black; stroke-width: 3; fill:white" >
+<animateMotion dur="10s" repeatCount="indefinite" path="M0,0 C40,0 0,100 0,0 z" /></path>
+ </svg>
+
+
+<button id='button'>Restart</button><br>
+
+<img id="img" src="new.jpg">
+
+<svg id="letter"></svg><br>
+
+<ul id=list>
+    <li> Javascript has the highest number of questions(1338) over the span of 11 years. </li>
+    <li> Perl has the lowest number of questions(58) over the span <br>of 11 years. </li>
+    <li> By the end of 2019, python questions almost got tripled, while <br> c# questions got reduced to one sixth of its initial value. </li>
+    <li> <a href='https://fabdevgit.github.io/barchartrace/'>Link for the data. </a> </li>
+</ul>
+<svg width="300" height="500" style="position: absolute; top:200px; left:1200px">
+<text x="100" y="500" style="font-weight : bold; font-family: 'Trebuchet MS', sans-serif;">*Till June 2020</text>
+</svg>
+
+<script src="https://d3js.org/d3.v7.js"></script>  <!-- Load d3.js -->
+<script src="script.js"></script>
+</body>
+
+
